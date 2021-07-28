@@ -1,3 +1,26 @@
+/*
+** Convencion para aplicar estilos **
+1- Posicionamiento - ej: position.
+2- Modelo de cajas o "Box model" - ej: margin, padding, border, etc.
+3- Tipografia
+4- Visuales - box-shadow, gradient, border-radius, etc.
+5- Otros
+*/
+
+:root{
+  /* COLORS */
+  --bitcoin-orange: #F7931A;
+  --soft-orange: #FFE9D5;
+  --secondary-blue: #1A9AF7;
+  --soft-blue: #E7F5FF;
+  --warm-black: #201E1C;
+  --black: #282623;
+  --grey: #BABABA;
+  --off-white: #FAF8F7;
+  --white: #FFFFFF;
+  /* END COLORS */
+}
+
 *{
   box-sizing: border-box;
   margin: 0;
@@ -5,7 +28,10 @@
 }
 html{
   font-size: 62.5%;
+  font-family: 'DM sans', sans-serif;
 }
+/*
 body{
   font-size: 1.6rem;
 }
+*/
