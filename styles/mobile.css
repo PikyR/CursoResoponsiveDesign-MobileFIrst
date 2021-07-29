@@ -30,8 +30,29 @@ html{
   font-size: 62.5%;
   font-family: 'DM sans', sans-serif;
 }
-/*
-body{
-  font-size: 1.6rem;
+
+.header{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  min-width: 320px;
+  height: 334px;
+  text-align: center;  
 }
-*/
+.header__logo{
+  width: 150px;
+  height: 24px;
+  margin-top: 60px;
+  align-self: center;
+}
+
+.header__text-container{
+  width: 90%;
+  min-width: 288px;
+  max-width: 900px;
+  height: 218px;
+  margin-top: 50px;
+  align-self: center;
+}
