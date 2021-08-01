@@ -100,3 +100,30 @@ html{
 .icon__arrow--down{
   background-image: url("../assets/icons/down-arrow.svg");
 }
+/*
+  End header
+**************/
+
+/**************
+  Intercambio 
+***************/
+.main__content{
+  min-width: 320px;
+  width: 100%;
+  background-color: var(--off-white);
+}
+.main__excahnge-container{
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+/* IMG */
+
+.main__exchange-text{
+  width: 90%;
+  min-width: 288px;
+  max-width: 900px;
+  margin: 0 auto;
+}
