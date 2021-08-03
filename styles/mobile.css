@@ -112,6 +112,7 @@ html{
   width: 100%;
   background-color: var(--off-white);
 }
+
 .main__excahnge-container{
   width: 100%;
   padding-top: 80px;
@@ -119,11 +120,32 @@ html{
   text-align: center;
 }
 
-/* IMG */
+.main__exchange-img{
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.main__exchange-img img{
+  width: 100%;
+}
 
 .main__exchange-text{
   width: 90%;
   min-width: 288px;
   max-width: 900px;
   margin: 0 auto;
+}
+.main__exchange-text h2{
+  margin-bottom: 30px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--warm-black);
+}
+.main__exchange-text p{
+  margin-bottom: 30px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--grey);
 }
