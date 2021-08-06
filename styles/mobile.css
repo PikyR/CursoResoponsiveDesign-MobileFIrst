@@ -228,17 +228,27 @@ html{
 
 .table__footer {
   width: 80%;
+  min-width: max-content;
   max-width: 200px;
   padding: 8px;
   margin: 0 auto;
-  border-radius: 8px ;
+
+  color: var(--warm-black);
+  font-size: 1.2rem;
+  font-weight: normal;
+  line-height: 1.5rem;
+  
+  border-radius: 6px;
 }
 .footer--currency{
-  background-color: #FFE9D5;
+  background-color: var(--soft-orange);
 }
 .footer--commissions{
-  background-color: #E7F5FF;
+  background-color: var(--soft-blue);
 }
+
+
+
 
 
 /* * * * * * * * * * * * * 
