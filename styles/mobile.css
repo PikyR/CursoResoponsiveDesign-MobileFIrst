@@ -194,5 +194,27 @@ html{
 }
 
 .table__top-left{
-  background-color:red;
+  border-top-left-radius: 15px;
+}
+.table__top-right{
+  border-top-right-radius: 15px;
+}
+.table__bottom-left{
+  border-bottom-left-radius: 15px;
+}
+.table__bottom-right{
+  border-bottom-right-radius: 15px;  
+}
+
+
+/* No se por que no funciona */
+.table__right {
+  /* background-color: blue; */
+  font-size: 1.4rem;
+  font-weight: normal;
+  line-height: 1.7rem;
+  color:red ;
+}
+.table__right{
+  background-color: royalblue
 }
