@@ -206,15 +206,9 @@ html{
   border-bottom-right-radius: 15px;  
 }
 
-
-/* No se por que no funciona */
-.table__right {
-  /* background-color: blue; */
+.table__table-container .table__right {
   font-size: 1.4rem;
   font-weight: normal;
   line-height: 1.7rem;
-  color:red ;
-}
-.table__right{
-  background-color: royalblue
+  color:#757575 ;
 }
