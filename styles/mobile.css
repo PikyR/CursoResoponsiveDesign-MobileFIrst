@@ -154,7 +154,12 @@ html{
   width: 70%;
   min-width: 224px;
   max-width: 500px;
-  height: 500px;
+  /*
+    height 
+      debe tener el valor de 500px, 
+      pero por motivos practicos lo dejo en auto
+   */
+  height: auto;
   margin: 0 auto;
   font-family: "Inter", sans-serif;
 }
@@ -179,11 +184,15 @@ html{
   margin: 0 auto;
 }
 .table__table-container td{
-  /* border: 1px solid var(--bitcoin-orange); */
+  border: 1px solid var(--bitcoin-orange);
   width: 50%;
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 1.9rem;
   color: var(--grey);
   background-color: var(--white);
+}
+
+.table__top-left{
+  background-color:red;
 }
