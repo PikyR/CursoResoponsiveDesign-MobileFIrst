@@ -247,7 +247,30 @@ html{
   background-color: var(--soft-blue);
 }
 
+/* * * * * * * * * * * * * 
+ *     PRODUCT DETAIL    *
+ * * * * * * * * * * * * */
+.main-product-detail{
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  padding: 30px 10px;
+  background-color: var(--warm-black);  
+  position: relative;
 
+
+  /*temp*/
+  margin-top: 50px;
+}
+
+.product-detail__batata-logo{
+  background-color: yellow;
+  width: 40px;
+  height: 25px;
+  position: absolute;
+  top: calc(0% - 25px/2);
+  left: calc(50% - 40px/2);  
+}
 
 
 
