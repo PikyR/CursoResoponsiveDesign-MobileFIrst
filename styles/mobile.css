@@ -258,18 +258,44 @@ html{
   background-color: var(--warm-black);  
   position: relative;
 
+  font-family:'DM sans', sans-serif;
 
   /*temp*/
   margin-top: 50px;
+  color: #BABABA;
 }
 
 .product-detail__batata-logo{
-  background-color: yellow;
   width: 40px;
   height: 25px;
   position: absolute;
   top: calc(0% - 25px/2);
   left: calc(50% - 40px/2);  
+}
+.product-detail__batata-logo img{
+  width: 100%;
+}
+
+.product-detail__text-content{
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+
+  text-align: center;
+}
+.product-detail__text-content h2{
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--white);
+  margin-bottom: 24px;
+}
+.product-detail__text-content p{
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+  color: #808080;
+  margin-bottom: 25px;
 }
 
 
