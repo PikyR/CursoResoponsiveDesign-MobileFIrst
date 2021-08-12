@@ -20,7 +20,7 @@
     <!-- General container -->
     <div>
       <!-- Header -->
-      <header class="header DISPLAY--------NONE">
+      <header class="header">
         <img class="header__logo" src="./assets/images/logo.svg" alt="" />
 
         <div class="header__text-container">
@@ -29,7 +29,7 @@
             Batatabit te ayuda a navegar entre los diferenetes precions y
             tendencias.
           </p>
-          <a class="header__button" href="#"
+          <a class="header__button" href="#plans"
             >Conoce Nuestros Planes
             <span class="button__icon icon__arrow--down"></span
           ></a>
@@ -40,7 +40,7 @@
       <!-- Main content -->
       <main class="main__content">
         <!-- intercambios -->
-        <section class="main__excahnge-container DISPLAY--------NONE">
+        <section class="main__excahnge-container">
           <figure class="main__exchange-img">
             <img src="./assets/images/Bitcoin.svg" alt="" />
           </figure>
@@ -48,38 +48,53 @@
           <div class="main__exchange-text">
             <h2>Visibilizamos todas las tasas de cambio.</h2>
             <p>
-              Traemos información en tiempo real de las casas de cambio y las monedas más importantes del mundo.
+              Traemos información en tiempo real de las casas de cambio y las
+              monedas más importantes del mundo.
             </p>
           </div>
-          
+
           <div class="main__tables-container">
             <!-- Currency Table -->
             <div class="table table--currency">
               <!-- title -->
               <h3 class="table__title title--currency">Monedas</h3>
-              
+
               <!-- table -->
               <table class="table__table-container">
                 <tr>
                   <td class="table__top-left">Bitcoin</td>
-                  <td class="table__top-right table__right">$ 1.96 <img class="icon" src="./assets/icons/trending-down.svg"></td>
+                  <td class="table__top-right table__right">
+                    $ 1.96
+                    <img class="icon" src="./assets/icons/trending-down.svg" />
+                  </td>
                 </tr>
                 <tr>
                   <td>Ethereum</td>
-                  <td class="table__right">$ 0.07 <img class="icon" src="./assets/icons/trending-up.svg"></td>
+                  <td class="table__right">
+                    $ 0.07
+                    <img class="icon" src="./assets/icons/trending-up.svg" />
+                  </td>
                 </tr>
                 <tr>
                   <td>Ripple</td>
-                  <td class="table__right">$ 2.15 <img class="icon" src="./assets/icons/trending-down.svg"></td>
+                  <td class="table__right">
+                    $ 2.15
+                    <img class="icon" src="./assets/icons/trending-down.svg" />
+                  </td>
                 </tr>
                 <tr>
                   <td class="table__bottom-left">Stellar</td>
-                  <td class="table__bottom-right table__right">$ 4.96 <img class="icon" src="./assets/icons/trending-down.svg"></td>
+                  <td class="table__bottom-right table__right">
+                    $ 4.96
+                    <img class="icon" src="./assets/icons/trending-down.svg" />
+                  </td>
                 </tr>
               </table>
 
               <!-- table footer -->
-              <p class="table__footer footer--currency"><b>Actualizado:</b> 19 Julio 23:45</p>
+              <p class="table__footer footer--currency">
+                <b>Actualizado:</b> 19 Julio 23:45
+              </p>
             </div>
 
             <!-- Commissions table -->
@@ -108,76 +123,120 @@
               </table>
 
               <!-- table footer -->
-              <p class="table__footer footer--commissions"><b>Actualizado:</b> 19 Julio 23:48</p>
+              <p class="table__footer footer--commissions">
+                <b>Actualizado:</b> 19 Julio 23:48
+              </p>
             </div>
           </div>
         </section>
         <!-- End intercambios -->
-        
+
         <!-- Product detail cards -->
-        <section class="main__product-detail DISPLAY--------NONE">
+        <section class="main__product-detail">
           <!-- Batata logo -->
           <figure class="product-detail__batata-logo">
-            <img src="./assets/icons/batata.svg" alt="Logo de batata, una papa frita">
+            <img
+              src="./assets/icons/batata.svg"
+              alt="Logo de batata, una papa frita"
+            />
           </figure>
 
           <div class="product-detail__text-content">
             <h2>Creamos un producto sin comparación.</h2>
             <p>Confiable y diseñado para su uso diario.</p>
           </div>
-          
+
           <!-- cards container -->
           <section class="product-cards__container">
             <!-- Tiempo real -->
             <article class="product-detail-card">
               <figure class="card__icon">
-                <img src="./assets/icons/clock.svg" alt="Icono de un reloj">
+                <img src="./assets/icons/clock.svg" alt="Icono de un reloj" />
               </figure>
               <h3 class="card__title">Tiempo real</h3>
-              <p class="card__text">Nuestro API toma información munuto a minuto sobre las tasas que más determinan el comportamiento.</p>
+              <p class="card__text">
+                Nuestro API toma información munuto a minuto sobre las tasas que
+                más determinan el comportamiento.
+              </p>
             </article>
 
             <!-- No hay tasas escondidas -->
             <article class="product-detail-card">
               <figure class="card__icon">
-                <img src="./assets/icons/eye.svg" alt="Icono de un ojo">
+                <img src="./assets/icons/eye.svg" alt="Icono de un ojo" />
               </figure>
               <h3 class="card__title">No hay tasas escondidas</h3>
-              <p class="card__text">Ni en la compra o al momento de exit, Batabit siempre te muestra el costo real de lo que estás adquiriendo.</p>
+              <p class="card__text">
+                Ni en la compra o al momento de exit, Batabit siempre te muestra
+                el costo real de lo que estás adquiriendo.
+              </p>
             </article>
-            
+
             <!-- Compra monedas -->
             <article class="product-detail-card">
               <figure class="card__icon">
-                <img src="./assets/icons/dollar-sign.svg" alt="Icono de un signo peso">
+                <img
+                  src="./assets/icons/dollar-sign.svg"
+                  alt="Icono de un signo peso"
+                />
               </figure>
               <h3 class="card__title">Compara monedas</h3>
-              <p class="card__text">No más rumores, con Babtabit sabrás el valor real de cada moneda en el mercado actual.</p>
+              <p class="card__text">
+                No más rumores, con Babtabit sabrás el valor real de cada moneda
+                en el mercado actual.
+              </p>
             </article>
 
             <!-- Información confiable -->
             <article class="product-detail-card">
               <figure class="card__icon">
-                <img src="./assets/icons/check-circle.svg" alt="Icono de un check">
+                <img
+                  src="./assets/icons/check-circle.svg"
+                  alt="Icono de un check"
+                />
               </figure>
               <h3 class="card__title">Información confiable</h3>
-              <p class="card__text">Nuestras fuentes están 100% verificadas y continuamos auditando su contenido mientras se actualizan.</p>
+              <p class="card__text">
+                Nuestras fuentes están 100% verificadas y continuamos auditando
+                su contenido mientras se actualizan.
+              </p>
             </article>
           </section>
         </section>
         <!-- End product detail cards -->
 
-        <section class="main__bitcoin-img-container DISPLAY--------NONE">
+        <section class="main__bitcoin-img-container">
           <h2>Conócelo hoy.</h2>
         </section>
-        
+
         <!-- Planes -->
-        <section>
-          <div>
-            <h2></h2>
-            <p></p>
+        <section id="plans" class="main__plan-cotainer">
+          <div class="plan__tex-content">
+            <h2>Escoge el plan que mejor se ajuste a ti.</h2>
+            <p>Cualquier plan te da acceso completo a nuestra plataforma.</p>
           </div>
-          
+
+          <section class="plan__cards-container">
+            <!-- Tarjeta Vacia -->
+            <article class="plan-card"></article>
+
+            <!-- Tarjeta -->
+            <article class="plan-card">
+              <h4 class="plan-card__header">Recomendado</h4>
+              <h3 class="plan-card__title">Pago Anual</h3>
+              <p class="plan-card__price">
+                <span>$</span> 99
+              </p>
+              <p class="plan-card__text">*Ahorras $129 comparado al plan mensual.</p>
+              <button class="plan-card__btn">
+                Escoger este <span>i</span>
+              </button>
+            </article>
+            <!-- End tarjeta -->
+
+            <!-- Tarjeta Vacia -->
+            <article class="plan-card"></article>
+          </section>
         </section>
         <!-- End Planes -->
       </main>
