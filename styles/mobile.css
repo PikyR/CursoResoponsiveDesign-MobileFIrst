@@ -112,7 +112,7 @@ html{
 .main__content{
   min-width: 320px;
   width: 100%;
-  background-color: var(--off-white);
+  background-color: #E5E5E5;
 }
 
 .main__excahnge-container{
@@ -357,6 +357,33 @@ html{
 /* * * * * * * * * * * * * 
  *        PLANES         *
  * * * * * * * * * * * * */
+.main__plan-cotainer{
+  width: 100%;
+  min-width: 320px;   
+  padding-top: 64px;
+}
+
+.plan__tex-content{
+  width: 90%;
+  min-width: 288px;
+  margin: 0 auto 34px;
+  text-align: center; 
+}
+.plan__tex-content h2{
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  margin-bottom: 24px;
+}
+.plan__tex-content p{
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #757575;
+}
+
+
+
 
 
 
