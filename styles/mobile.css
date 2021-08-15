@@ -366,7 +366,7 @@ html{
 .plan__tex-content{
   width: 90%;
   min-width: 288px;
-  margin: 0 auto 34px;
+  margin: 0 auto;
   text-align: center; 
 }
 .plan__tex-content h2{
@@ -382,12 +382,21 @@ html{
   color: #757575;
 }
 
+.plan__cards-container{
+  display: flex;
+  height: auto;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+}
+
 .plan-card{
+  scroll-snap-align: center;
   width: 65%;
   min-width: 190px;
   max-width: 300px;
   height: 247px;
-  margin: 50px auto;
+  margin: 50px 8px;
   padding: 0 16px 24px;
   text-align: center;
   background-color: var(--white);
@@ -440,6 +449,7 @@ html{
 }
 .plan-card__btn{
   width: 151px;
+  font-family: 'DM sans', sans-serif;
   font-size: 1.4rem;
   font-weight: bold;
   line-height: 1.8rem;
