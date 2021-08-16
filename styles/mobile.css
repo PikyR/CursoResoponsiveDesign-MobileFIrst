@@ -475,7 +475,37 @@ html{
   background-size: cover;
 }
 
-
+/* * * * * * * * * * * * * 
+ *         FOOTER        *
+ * * * * * * * * * * * * */
+.main__footer{
+  width: 100%;
+  min-width: 320px;
+  height: 150px;
+  background-color: var(--bitcoin-orange);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__liks-container{  
+  width: 50%;
+  margin-left: 60px;
+}
+.footer__liks-container li{
+  list-style: none;
+}
+.footer__liks-container a{
+  display: inline-block;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  text-decoration: none;
+  color: var(--white);
+  padding: 5px;
+}
+.footer__logo-container{
+  width: 50%;
+}
 
 
 /* * * * * * * * * * * * * 
