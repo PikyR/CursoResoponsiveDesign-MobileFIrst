@@ -484,17 +484,23 @@ html{
   height: 150px;
   background-color: var(--bitcoin-orange);
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  /* justify-content: center; */
+  align-items:center;
 }
-.footer__liks-container{  
+
+.footer__section{
   width: 50%;
-  margin-left: 60px;
 }
-.footer__liks-container li{
+
+.footer__links-container{
+  width: max-content;
+  margin: 0 auto;
+  padding-left: 60px;
+}
+.footer__links-container li{
   list-style: none;
 }
-.footer__liks-container a{
+.footer__links-container a{
   display: inline-block;
   font-size: 1.4rem;
   font-weight: 500;
@@ -504,7 +510,8 @@ html{
   padding: 5px;
 }
 .footer__logo-container{
-  width: 50%;
+  width: fit-content;
+  margin: 0 auto;
 }
 
 
