@@ -1,0 +1,22 @@
+.main__tables-container{
+  width: 930px;
+  min-width: none;
+  max-width: none;
+  display: flex;
+  justify-content: space-evenly;  
+}
+.table{  
+  width: 35%;
+}
+
+.product-cards__container{
+  width: 930px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.plan__cards-container{
+  width: 930px;
+  margin: 0 auto;
+}

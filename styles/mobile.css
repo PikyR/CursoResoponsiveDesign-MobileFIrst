@@ -156,11 +156,6 @@ html{
   width: 70%;
   min-width: 224px;
   max-width: 500px;
-  /*
-    height 
-      debe tener el valor de 500px, 
-      pero por motivos practicos lo dejo en auto
-   */
   height: auto;
   margin: 0 auto;
   font-family: "Inter", sans-serif;
@@ -261,9 +256,6 @@ html{
   position: relative;
 
   font-family:'DM sans', sans-serif;
-
-  /*temp*/
-  margin-top: 50px;
 }
 
 .product-detail__batata-logo{
